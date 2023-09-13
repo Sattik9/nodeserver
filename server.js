@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 //API Port
 const apiRouter=require("./Route/apiRouter");
-app.use(apiRouter);
+app.use('/api',apiRouter);
 
 
 const port=process.env.PORT || 2345;

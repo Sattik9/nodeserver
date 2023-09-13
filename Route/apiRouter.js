@@ -2,7 +2,7 @@ const express=require('express');
 const Route=express.Router();
 const ApiController=require("../Controller/apiController");
 //Read Route
-Route.get("/read",ApiController.read);
+Route.get("/student",ApiController.read);
 
 //Create Route
 Route.post("/create",ApiController.create);
